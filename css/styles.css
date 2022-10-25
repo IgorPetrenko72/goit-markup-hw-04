@@ -63,8 +63,6 @@ address {
   font-family: var(--main-font);
   text-decoration: none;
   font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
   text-align: center;
   list-style: none;
   cursor: pointer;
@@ -80,7 +78,7 @@ address {
   text-decoration: none;
   font-size: 26px;
   font-weight: 700;
-  line-height: calc(60 / 44);
+  line-height: calc(31 / 26);
   color: var(--bg-btn);
 }
 .logo-header {
@@ -172,8 +170,10 @@ address {
   background-color: var(--bg-btn);
   line-height: 1.88;
   color: var(--color-btn);
+  font-weight: 700;
   padding: 10px 32px;
   margin-top: 30px;
+  letter-spacing: 0.06em;
 }
 
 .hero-button:hover,
@@ -283,8 +283,10 @@ address {
   background-color: var(--filter-gd-btn);
   line-height: 1.62;
   color: var(--filter-btn);
+  font-weight: 500;
   margin-left: 8px;
   padding: 6px 22px;
+  letter-spacing: 0.03em;
 }
 .filter-button:nth-of-type(1) {
   margin-left: 0px;
@@ -293,7 +295,6 @@ address {
 .filter-button:focus {
   color: var(--color-btn);
   background-color: var(--bg-btn);
-  padding: 6px 25px;
 }
 /* projects */
 
@@ -308,6 +309,7 @@ address {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--filter-btn);
+  margin-bottom: 4px;
 }
 .text-project {
   font-weight: 400;
@@ -330,6 +332,9 @@ address {
 }
 .logo-footer {
   color: var(--color-btn);
+}
+.address-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 .address {
   margin-top: 20px;
